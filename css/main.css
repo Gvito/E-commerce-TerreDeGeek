@@ -97,13 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* <!-- ///////===============================================================================////////////
-   ///////==========================================================================////////////
-   ///////=================================================================================//////////// --> */
-
-   /* <!-- ///////===============================================================================////////////
-   ///////==========================================================================////////////
-   ///////=================================================================================//////////// --> */
 
    /* <!-- ///////===============================================================================////////////
    ///////======================================Start HEADER====================================////////////
@@ -112,19 +105,26 @@ textarea {
    header {
      background-color: blue;
      text-align: center;
+     padding: 1vh;
    }
 
    h1 {
      background-color: orange;
      font-size: 10vh;
+     margin: 0vh;
    }
 
    nav {
      background-color: pink;
-     margin: 0 ;
-     padding: 0 ;
+     margin: 0;
+     padding: 0;
+     height: 10vh;
+     width: 110vh;
+     margin-left: 40vh;
+     padding-right: 6vh;
      list-style: none;
      text-align: center;
+
    }
 
    nav li {
@@ -165,14 +165,25 @@ textarea {
    }
 
    .infotdg {
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
    }
 
    iframe {
 
    }
 
+   .buttonandtitlev {
+     display: flex;
+     flex-direction: column;
+
+   }
+
    .titleicone {
+     display: flex;
+     align-items: center;
 
    }
 
@@ -185,11 +196,18 @@ textarea {
    }
 
    .pageinfo {
+     font: 1rem 'Fira Sans', sans-serif;
+     padding: .5rem;
+     background: #86d1f0;
+     border: none;
+     border-radius: 4px;
+     margin: 4px;
+}
 
    }
 
    .select {
-
+     
    }
 
    h2 {
@@ -201,7 +219,7 @@ textarea {
    }
 
    img {
-     
+
    }
 
    .fourproduits {
@@ -209,6 +227,12 @@ textarea {
    }
 
    .listp {
+     font: 1rem 'Fira Sans', sans-serif;
+     padding: .5rem;
+     background: #86d1f0;
+     border: none;
+     border-radius: 4px;
+     margin: 4px;
 
    }
 
@@ -222,10 +246,13 @@ textarea {
 
    footer {
     background-color: green;
+    padding: 1vh;
    }
 
-   h3 {
-
+   h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
    }
 
    /* <!-- ///////===============================================================================////////////
