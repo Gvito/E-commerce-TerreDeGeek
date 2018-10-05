@@ -105,25 +105,26 @@ textarea {
    header {
      background-color: blue;
      text-align: center;
-     padding: 1vh;
+     padding: 2vh;
    }
 
    h1 {
      background-color: orange;
-     font-size: 10vh;
-     margin: 0vh;
+     font-size: 4em;
+     margin: auto;
    }
 
    nav {
      background-color: pink;
-     margin: 0;
-     padding: 0;
-     height: 10vh;
-     width: 110vh;
-     margin-left: 40vh;
-     padding-right: 6vh;
+     height: 12vh;
+     width: 70%;
      list-style: none;
      text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+
 
    }
 
@@ -165,6 +166,7 @@ textarea {
    }
 
    .infotdg {
+     padding: 5vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -172,19 +174,19 @@ textarea {
    }
 
    iframe {
-
    }
 
    .buttonandtitlev {
+     background-color: red;
+     padding-top: 5vh;
+     padding-bottom: 5vh;
      display: flex;
      flex-direction: column;
-
+     align-items: center;
    }
 
    .titleicone {
-     display: flex;
-     align-items: center;
-
+     background-color: blue;
    }
 
    #icone {
@@ -192,7 +194,6 @@ textarea {
    }
 
    .titlev {
-
    }
 
    .pageinfo {
@@ -202,28 +203,21 @@ textarea {
      border: none;
      border-radius: 4px;
      margin: 4px;
-}
-
    }
 
    .select {
-     
    }
 
    h2 {
-
    }
 
    .produitsurl {
-
    }
 
    img {
-
    }
 
    .fourproduits {
-
    }
 
    .listp {
