@@ -217,7 +217,7 @@ textarea {
    h2 {
      margin: auto;
      padding: 1em;
-     font-size: 3em;
+     font-size: 2em;
      color: #FE654F;
      border: 1px solid;
    }
@@ -258,6 +258,20 @@ textarea {
      line-height: 1em ;
      text-align: center ;
      text-decoration: none ;
+   }
+
+   .maincontact {
+     padding: 5em;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   .titlecontact {
+
+   }
+
+   form {
+     padding: 5em;
    }
 
    /* <!-- ///////===============================================================================////////////
